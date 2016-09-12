@@ -1,0 +1,143 @@
+body{
+	font-family: 'Ubuntu', sans-serif;
+	background-color: #f1f1f1;
+}
+.container {
+	min-width: 300px;
+	margin: 0px 20px;
+	width:auto;
+}
+
+#sidenav-wrap {
+	position: fixed;
+	min-height: 100%;
+	height:auto;
+	background-color: #3F454F;
+	border-right: solid 1px #333;
+}
+#sidenav {
+	float: left;
+	width: 180px;
+	left: 0px;
+	margin: 0px;
+}
+#sidenav ul {
+	list-style-type: none;
+	margin-top: 40px;
+	padding: 0;
+	overflow: hidden;
+}
+
+#sidenav ul li a {
+	display: block;
+	padding: 10px 30px;
+	color: white;
+	text-decoration: none;
+}
+
+#sidenav ul li a:hover {
+	background-color: #333;
+}
+#sidenav ul li.current{
+	background-color: #000000;
+}
+#sidenav header h2 {
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	color: white;
+}
+#sidenav header img {
+	display: block;
+	width:150px;
+	height:150px;
+	margin: 10px auto;
+}
+.container-right{
+	margin-left: 181px;
+	position: relative;
+	overflow:hidden;
+	
+}
+
+#header-wrapper header img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 3px;
+	width: 100%;
+}
+
+#header-wrapper{
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+#content-wrapper{
+	display: block;
+	margin-bottom: 20px;
+}
+
+#content {
+	background-color: #bbb;
+	min-height: 400px;
+	height: 100%;
+	margin: 10px 0px;
+	padding: 20px;
+	border-radius: 3px;
+	position: relative;	
+}
+h3{
+	margin:0;
+}
+#footer-wrapper {
+	clear: both;
+	background-color: #3F454F;
+	min-width:300px;
+	border-top: 3px solid #cc0000;
+}
+
+#footer-wrapper footer {
+	height: 100px;
+	position: relative;
+	overflow: hidden;
+}
+
+#footer-wrapper footer #footer-address {
+	color: white;
+	font-size: 18px;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	text-align: right;
+}
+
+#footer-wrapper footer nav ul {
+	margin: 10px 0 10px 10px;
+	padding: 0;
+	list-style-type: none;
+}
+
+#footer-wrapper footer nav ul li {
+	margin-bottom: 4px;
+}
+
+
+#footer-wrapper footer nav ul li a {
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+iframe.video{
+	border: none;
+}
+
+
+
+
+
+
+
+
+
