@@ -85,7 +85,7 @@ body{
 	margin: 10px 0px;
 	padding: 20px;
 	border-radius: 3px;
-	position: relative;	
+	position: relative;
 }
 h3{
 	margin:0;
@@ -129,10 +129,14 @@ h3{
 	font-size: 14px;
 }
 
-iframe.video{
-	border: none;
+.exercise{
+	display: block;
+	width:auto;
 }
-
+.exercise_scaled{
+	display: block;
+	width:100%;
+}
 
 
 
